@@ -62,5 +62,4 @@ const App = () => {
     </SearchMoviesContext.Provider>
   )
 }
-
 export default App

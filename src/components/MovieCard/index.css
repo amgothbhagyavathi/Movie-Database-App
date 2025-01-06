@@ -1,8 +1,27 @@
 .movie-card-container {
+  list-style-type: none;
 }
 .movie-card-image {
+  height: 400px;
+  width: 300px;
 }
 .movie-title {
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 600;
 }
 .movie-rating {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: gray;
+}
+.button {
+  background-color: beige;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  width: 100px;
 }

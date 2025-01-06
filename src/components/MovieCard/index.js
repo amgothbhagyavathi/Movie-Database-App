@@ -13,7 +13,7 @@ const MovieCard = props => {
         <p className="movie-rating mb-0 ms-1">Rating: {voteAverage}</p>
       </div>
       <Link to={`/movie/${id}`} className="mt-auto align-self-center">
-        <button className="btn btn-outline-success" type="button">
+        <button className="button" type="button">
           View Details
         </button>
       </Link>

@@ -24,7 +24,7 @@ const NavBar = props => {
         }
 
         return (
-          <div className="d-flex align-items-center">
+          <div className="d-flex nav-bg-container">
             <input
               type="text"
               className="me-2 search-input"
@@ -32,11 +32,7 @@ const NavBar = props => {
               value={searchInput}
               placeholder="Search"
             />
-            <button
-              className="btn btn-outline-info"
-              type="button"
-              onClick={onSearchHandler}
-            >
+            <button className="buttons" type="button" onClick={onSearchHandler}>
               Search
             </button>
           </div>
@@ -73,5 +69,4 @@ const NavBar = props => {
     </nav>
   )
 }
-
 export default withRouter(NavBar)
